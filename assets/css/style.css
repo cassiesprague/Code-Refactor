@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Above shows the very top Horiseon box and the padding and margin*/
+body {
+    background-color: #d9dcd6;
+}
+/*Above shows the background color of the body which has the blue boxes over it*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Above shows the very top Horiseon box and the font, padding, and colors*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Above shows the very top Horiseon position and font size*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+/*Above shows the color is different for the 3 letters in the Horiseon header*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*Above shows the very top Horiseon position and font size*/
+header nav ul {
+    list-style-type: none;
+}
+/*Above shows the buttons to click on in the top right of the page*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*Above shows the position and margin of the buttons in the top right corner*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Above shows the color of the buttons in the top right corner*/
+p {
+    font-size: 16px;
+}
+/*Above shows the size of the text under each title of the h2 boxes*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*Above shows the specifications of the main image on the page*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Above shows the position of the main image on the page*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Above shows the position of the main image on the page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*Above shows the specifications of the 3 h2 boxes on the page*/
+
+/*Commented this whole section out because it is an h3 and should go after the h2. It was before the h2 which is not in sequential order.*/
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*made this section DRY*/
+.benefit-h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*made this section DRY*/
+.benefit-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*made this section DRY*/
+
+/*Below shows the margin, padding, size, font, and background color of the 3 boxes labeled search engine optimization,
+online reputation management, and social media marketing*/
+.marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*made this section DRY*/
+
+/*Below shows the size of the search engine optimization image*/
+.marketing img {
+    max-height: 200px;
+}
+
+/*Below shows the margin amount and font size of the header on search engine optimization*/
+.marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Below shows how much padding, font, and alignment of the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*Below shows the font size of the h2 footer*/
+.footer h2 {
+    font-size: 20px;
+}
